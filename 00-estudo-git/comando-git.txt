@@ -6,4 +6,4 @@ git status - apresenta o satatus do repositorio local
 
 git add <arquivo> - adiciona o arquivo modificado ou nao rastreado para o proximo commit
 
-git add . - adiciona todos os arquivos modificados ou nao rastreados do diretorio atual
+git add . - adiciona todos os arquivos modificados ou nao rastreados no diretorio atual
