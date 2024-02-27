@@ -1,0 +1,1 @@
+git init - incia o repositorio git
