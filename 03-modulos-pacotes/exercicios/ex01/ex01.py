@@ -11,10 +11,10 @@ temp_desejada = float(input('Informe a tempera desejada da agua: '))
 temp_ambiente = float(input('Informe a temperatura ambiente da agua: '))
 
 volume = volume(comprimento, altura, largura)
-print("O volume do aquario eh", volume)
+print("O volume do aquario eh igual a", volume, "litros")
 
 potencia = potencia(volume, temp_desejada, temp_ambiente)
-print("A potencia do termostato eh", potencia)
+print("A potencia necessaria do termostato eh de", potencia, "watts")
 
 filtragem = filtragem(volume)
-print("A quantidade de agua que deve ser filtrada eh", filtragem)
+print("A quantidade minima de agua que deve ser filtrada eh de", filtragem, "litros")
